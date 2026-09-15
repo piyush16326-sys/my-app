@@ -1,0 +1,22 @@
+.navbar-list-item {
+    display: flex;
+    background-color: #98c9fa;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-list-item li {
+    font-weight: 600;
+    padding: 10px;
+}
+
+.navbar-list-item li:hover {
+    color: azure;
+}
+
+@media (max-width: 768px) {
+    .navbar-list-item {
+        flex-direction: column;
+        align-items: center;
+    }
+}

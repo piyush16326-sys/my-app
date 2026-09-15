@@ -1,9 +1,12 @@
 import Image from "next/image";
+import Navbar from "@/lib/Navbar";
+import HeroSection from "@/lib/HeroSection";
 
 export default function Home() {
   return (
     <div>
-      <h1 className="text-center pt-5">Welcome to My App</h1>
-    </div>
+      <Navbar />
+      <HeroSection />
+    </div >
   );
 }

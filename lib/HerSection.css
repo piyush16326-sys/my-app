@@ -1,0 +1,28 @@
+.heroSection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://media.licdn.com/dms/image/v2/D5622AQHs29ZI6w3NQw/feedshare-shrink_480/B56Z9uXns2LAAg-/0/1784263114163?e=1790812800&v=beta&t=HrUqqZ2N_BvcK3DTLQOF01FfXTAkigpiwAptDDL20Nc');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    background-repeat: no-repeat;
+    aspect-ratio: 21 / 9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: montserrat;
+}
+
+@media (max-width: 768px) {
+    .heroSection {
+        width: 100%;
+        height: 50vh;
+        font-size: 1.5rem;
+        aspect-ratio: auto;
+        padding: 20px;
+    }
+}
